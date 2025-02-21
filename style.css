@@ -1,0 +1,54 @@
+/*I hate CSS with a passion.*/
+
+
+/*Tried to make it look like Frutiger Aero but failed miserably, the gradient is the best effort I couldve put into it,*/
+div {
+    background: linear-gradient(120deg,#a2a2a2, #e7e3e3, #6a6a6a);
+    width: 25%;
+    padding: 0.5%;
+    margin-top: 1%;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+video {
+    border-radius: 15%;
+    margin-top: 1%;
+}
+
+/*took me like an hour to figure out you needed to have a div with a flex and not in the p or img elements*/
+.containerthing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerthing2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*I love border-radius*/
+img {
+    margin-top: 1%;
+    border-radius: 15px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.p0 {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p1 {
+    margin-left: 0;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: aqua;
+    background-image: url("frutiger.png");
+}
